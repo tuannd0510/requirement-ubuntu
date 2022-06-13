@@ -1,7 +1,6 @@
 # requirement-ubuntu
 
-list package installed
-
+list package installed: 
 ```
 dpkg --list
 ```
