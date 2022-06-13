@@ -1,15 +1,2 @@
 # requirement-ubuntu
-
-list package installed: 
-```
-dpkg --list
-```
-remove package:
-```
-sudo apt-get remove <packagname>
-```
-SSH-key github:
-```
-ssh-keygen -t rsa -b 4096 -C "tuanabcxyz555@gmail.com"
-cat .ssh/id_rsa.pub
-```
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
