@@ -2,5 +2,5 @@
 
 list package installed
 ```
-
+  dpkg --list
 ```
