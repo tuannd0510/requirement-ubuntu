@@ -19,7 +19,7 @@ int main(void) {
   return 0;
 }
 ```
-Compile it by typing, if you are using an Arietta, Aria or FOX G20 board::
+Compile it by typing, if you are using an Arietta, Aria or FOX G20 board:
 ```
 arm-linux-gnueabi-gcc hello.c -o hello
 ```
