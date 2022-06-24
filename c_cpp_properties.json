@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "path":[
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/usr/src/linux-headers-5.13.0-40-generic/include",
+                    "/usr/src/linux-headers-5.13.0-40-generic/arch/x86/include/",
+                    "${workspaceFolder}"
+                ]
+            },
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-arm",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "/usr/src/linux-headers-5.13.0-40-generic/ubuntu/include",
+                "/usr/src/linux-headers-5.13.0-40-generic/include",
+                "/usr/src/linux-headers-5.13.0-40-generic/include/uapi",
+                "/usr/src/linux-headers-5.13.0-40-generic/include/generated/uapi",
+                "/usr/src/linux-headers-5.13.0-40-generic/arch/x86/include",
+                "/usr/src/linux-headers-5.13.0-40-generic/arch/x86/include/uapi",
+                "/usr/src/linux-headers-5.13.0-40-generic/arch/x86/include/generated",
+                "/usr/src/linux-headers-5.13.0-40-generic/arch/x86/include/generated/uapi",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include"
+            ],
+            "compilerArgs": [
+                "-nostdinc",
+                "-include", "/usr/src/linux-headers-5.13.0-40-generic/include/linux/kconfig.h",
+                "-include", "/usr/src/linux-headers-5.13.0-40-generic/include/linux/compiler_types.h"
+            ]
+        }
+    ],
+    "version": 4
+} 
