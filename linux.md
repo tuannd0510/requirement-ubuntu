@@ -11,7 +11,8 @@ sudo apt-get remove <packagname>
 ssh-keygen -t rsa -b 4096 -C "tuanabcxyz555@gmail.com"
 cat .ssh/id_rsa.pub
 ```
-chmod~<Change a file's mode>, cho phep người dùng có thể đọc và viết nhưng không thể thực thi tệp/thư mục
+
+# chmod~<Change a file's mode>
 permission to:  user(u)   group(g)   other(o)     
                 /¯¯¯\      /¯¯¯\      /¯¯¯\
 octal:            6          6          6
