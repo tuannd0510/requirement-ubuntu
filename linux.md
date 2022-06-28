@@ -12,7 +12,7 @@ ssh-keygen -t rsa -b 4096 -C "tuanabcxyz555@gmail.com"
 cat .ssh/id_rsa.pub
 ```
 
-# chmod~<Change a file's mode>
+# chmod ~ Change a file's mode
 permission to:  user(u)   group(g)   other(o)     
                 /¯¯¯\      /¯¯¯\      /¯¯¯\
 octal:            6          6          6
