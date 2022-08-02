@@ -14,7 +14,9 @@ sudo apt install blender
 blender --version
 ```
 ## Visual code
-
+```
+sudo snap install code --classic
+```
 ## ibus-bamboo
 ```
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
