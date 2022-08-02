@@ -27,3 +27,6 @@ ibus restart
 
 # Lab
 ## ROS
+Step 1: http://wiki.ros.org/noetic/Installation/Ubuntu
+Step 2: https://clover.coex.tech/en/simulation_native.html
+Step 3: http://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html#gazebo-jmavsim-and-nuttx-pixhawk-targets
