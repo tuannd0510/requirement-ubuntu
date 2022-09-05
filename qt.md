@@ -1,4 +1,10 @@
 (https://github.com/PhysicsX/QTonRaspberryPi)
+# 
+```
+# Ubuntu20:
+sodo apt install clang-8
+```
+
 # QTonRaspberryPi
 
 Youtube video:
