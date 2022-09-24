@@ -1,6 +1,6 @@
 ## ARCore API key
-- Enable Service: [link] [arcoreService]
-[arcoreService]:https://console.cloud.google.com/apis/library/arcorecloudanchor.googleapis.com?project=arcore1-363303
+- Enable Service: [link][arcoreService]
+
 ```
 <application
   ...
@@ -20,3 +20,4 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:20.3.0'
 ...
 ```
+[arcoreService]: https://console.cloud.google.com/apis/library/arcorecloudanchor.googleapis.com?project=arcore1-363303
