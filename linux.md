@@ -28,3 +28,33 @@ permission to  - user: the owner that create the file/folder
 ```
 chmod 666 /dev/mydevice
 ```
+
+# VIM
+
+```
+ESC :q Enter
+```
+
+```
+ESC :wq Enter
+```
+
+```
+vim newdocument.txt
+```
+
+```
+cat newdocument.txt
+```
+
+```
+Lưu file - ":w" 
+Thoát khỏi file mà không lưu - ":q" 
+Lưu và thoát khỏi file - ":wq" 
+Chuyển sang chế độ insert - "i" 
+Chuyển sang chế độ command - ESC 
+Xóa một từ - "dw" 
+Xóa một dòng - "dd" 
+Quay trở lại các bước trước - "u".
+```
+
