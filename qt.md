@@ -1,6 +1,15 @@
+# Installation
+1. download .run file : qt online installer
 ```
-sudo apt install qtcreator
+# Permissions / Allow exe
+chmod a+x qt-....
+# 
+./qt-... --mirror http://www.nic.funet.fi/pub/mirrors/download.qt-project.org
 ```
-- download file installer
-https://www.qt.io/download-qt-installer?hsCtaTracking=99d9dd4f-5681-48d2-b096-470725510d34%7C074ddad0-fdef-4e53-8aa8-5e8a876d6ab4
-- Properties / Permissions / Allow exe
+
+## Libs
+1. VLC
+
+
+2. mqtt
+
