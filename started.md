@@ -33,6 +33,13 @@ sudo apt-get update
 sudo apt-get install ibus-bamboo
 ibus restart
 ```
+## Qt 
+1. download .run file : qt online installer
+```
+chmod a+x qt-....
+./qt-... --mirror http://www.nic.funet.fi/pub/mirrors/download.qt-project.org
+```
+
 
 # Lab
 ## ROS
