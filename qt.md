@@ -8,11 +8,12 @@ chmod a+x qt-....
 ```
 
 ## Libs
-1. VLC
-### requirements
+
+### LibVLC
+1. requirements
 - cmake: https://cgold.readthedocs.io/en/latest/first-step/installation.html
 - sudo apt-get install qtdeclarative5-dev libvlccore-dev libvlc-dev
-
+2. installation
 ```
 git clone git@github.com:vlc-qt/vlc-qt.git
 cd vlc-qt
@@ -23,8 +24,8 @@ cmake .. -DCMAKE_BUILD_TYPE=Debug
 make -j8
 sudo make install
 ```
+### qtmqtt
 
-2. mqtt
 ```
 git clone https://github.com/qt/qtmqtt.git --branch 5.15.2
 cd qtmqtt
