@@ -11,7 +11,8 @@ chmod a+x qt-....
 1. VLC
 ### requirements
 - cmake: https://cgold.readthedocs.io/en/latest/first-step/installation.html
-- 
+- sudo apt-get install qtdeclarative5-dev libvlccore-dev libvlc-dev
+
 ```
 git clone git@github.com:vlc-qt/vlc-qt.git
 cd vlc-qt
