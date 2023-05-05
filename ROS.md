@@ -1,6 +1,5 @@
-# Lab
-## ROS
-### Step 1: http://wiki.ros.org/noetic/Installation/Ubuntu
+# Installation
+## Step 1: http://wiki.ros.org/noetic/Installation/Ubuntu
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
@@ -12,7 +11,7 @@ sudo apt install ros-noetic-desktop-full
 
 source /opt/ros/noetic/setup.bash
 ```
-### Step 2: https://clover.coex.tech/en/simulation_native.html
+## Step 2: https://clover.coex.tech/en/simulation_native.html
 ```
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
@@ -37,7 +36,7 @@ rosdep install --from-paths src --ignore-src -y
 # Install Python dependencies:
 sudo /usr/bin/python3 -m pip install -r ~/catkin_ws/src/clover/clover/requirements.txt
 ```
-### Step 3: http://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html#gazebo-jmavsim-and-nuttx-pixhawk-targets
+## Step 3: http://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html#gazebo-jmavsim-and-nuttx-pixhawk-targets
 ```
 # Get PX4 sources
 cd
@@ -63,7 +62,7 @@ catkin_make
 # Run the simulator
 roslaunch clover_simulation simulator.launch
 ```
-### Step 4: https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
+## Step 4: https://docs.qgroundcontrol.com/master/en/getting_started/download_and_install.html
 ```
 # Before installing
 sudo usermod -a -G dialout $USER
@@ -80,3 +79,5 @@ https://d176tv9ibo4jno.cloudfront.net/latest/QGroundControl.AppImage
 chmod +x ./QGroundControl.AppImage
 ./QGroundControl.AppImage  (or double click)
 ```
+
+# 
