@@ -13,7 +13,9 @@ chmod a+x qt-....
 1. requirements
 - intstall cmake: https://cgold.readthedocs.io/en/latest/first-step/installation.html
 ```
+# installs development packages for the Qt Declarative module and the VLC media player library on a Debian-based Linux distribution
 sudo apt-get install qtdeclarative5-dev libvlccore-dev libvlc-dev
+# set the value of the environment variable "CMAKE_PREFIX_PATH"
 export CMAKE_PREFIX_PATH=<path-to-qt>/Qt/5.15.2/gcc_64:$CMAKE_PREFIX_PATH
 ``` 
 2. installation
