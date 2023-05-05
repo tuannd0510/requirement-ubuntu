@@ -1,4 +1,4 @@
-# Installation
+Installation
 1. download .run file : qt online installer
 ```
 # Permissions / Allow exe
@@ -11,15 +11,17 @@ chmod a+x qt-....
 
 ### LibVLC
 1. requirements
-- cmake: https://cgold.readthedocs.io/en/latest/first-step/installation.html
-- sudo apt-get install qtdeclarative5-dev libvlccore-dev libvlc-dev
+- intstall cmake: https://cgold.readthedocs.io/en/latest/first-step/installation.html
+```
+sudo apt-get install qtdeclarative5-dev libvlccore-dev libvlc-dev
+export CMAKE_PREFIX_PATH=<path-to-qt>/Qt/5.15.2/gcc_64:$CMAKE_PREFIX_PATH
+``` 
 2. installation
 ```
 git clone git@github.com:vlc-qt/vlc-qt.git
 cd vlc-qt
 mkdir build
 cd build
-export CMAKE_PREFIX_PATH=<path-to-qt>/Qt/5.15.2/gcc_64:$CMAKE_PREFIX_PATH
 cmake .. -DCMAKE_BUILD_TYPE=Debug
 make -j8
 sudo make install
