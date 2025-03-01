@@ -23,11 +23,11 @@ sudo apt update
 sudo apt install android-studio
 ```
 
-## ibus-bamboo
+## ibus-unikey
 ```
-sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
+sudo add-apt-repository ppa:ubuntu-vn/ppa
 sudo apt-get update
-sudo apt-get install ibus-bamboo
+sudo apt-get install ibus-unikey
 ibus restart
 ```
 
